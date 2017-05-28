@@ -15,6 +15,3 @@ install a linux system as a virtual machine, e.g. with VirtualBox).
    compile it beforehand).
 4. The Pythia8 Monte Carlo event simulation program, http://home.thep.lu.se/~torbjorn/Pythia.html
 
-
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\text{rapidity}:&space;\quad&space;y&space;=&space;\frac12&space;\ln&space;\frac{E&plus;p_z}{E-p_z}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\text{rapidity}:&space;\quad&space;y&space;=&space;\frac12&space;\ln&space;\frac{E&plus;p_z}{E-p_z}" title="\text{rapidity}: \quad y = \frac12 \ln \frac{E+p_z}{E-p_z}" /></a>
