@@ -8,8 +8,7 @@ laptop.__ Some of the tutorials will need a linux /
 mac-like system and a C++ compiler. (If you're under Windows, you can
 install a linux system as a virtual machine, e.g. with VirtualBox).
 
-__Lectures:__ Gavin Salam
-
+__Lectures:__ Gavin Salam  
 __Tutorials:__ Enrico Bothmann, Leonardo Vernazza, 
 
 ## Useful references & tools:
