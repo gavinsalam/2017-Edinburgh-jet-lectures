@@ -29,7 +29,7 @@ int main() {
   int nEvents = 100;
   
   pythia.init();
-  SimpleHist particleRap(-20.0, 20.0, 0.5);
+  SimpleHist particleRap(-15.0, 15.0, 0.5);
   
   // Begin event loop. Generate event. Skip if error. List first one.
   for (int iEvent = 0; iEvent < nEvents; ++iEvent) {
@@ -41,7 +41,6 @@ int main() {
       if (!pythia.event[i].isFinal()) continue;
 
       particleRap.add_entry(pythia.event[i].p().rap());
-
       
     }
   // End of event loop. Statistics. Histogram. Done.
