@@ -8,6 +8,7 @@
 
 #include "Pythia8/Pythia.h"
 #include "SimpleHist.hh"
+#include <cmath>
 
 using namespace Pythia8;
 using namespace std;
@@ -38,7 +39,10 @@ int main() {
     // Add an entry to the rapidity histogram for each particle
     for (int i = 0; i < pythia.event.size(); ++i) {
       if (!pythia.event[i].isFinal()) continue;
+
       particleRap.add_entry(pythia.event[i].p().rap());
+
+      
     }
   // End of event loop. Statistics. Histogram. Done.
   }
