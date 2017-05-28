@@ -8,6 +8,9 @@ laptop.__ Some of the tutorials will need a linux /
 mac-like system and a C++ compiler. (If you're under Windows, you can
 install a linux system as a virtual machine, e.g. with VirtualBox).
 
+__Lectures:__ Gavin Salam
+__Tutorials:__ Enrico Bothmann, Leonardo Vernazza, 
+
 ## Useful references & tools:
 1. Towards Jetography, [arXiv:0906.1833](https://arxiv.org/abs/0906.1833)
 2. Elements of QCD for hadron colliders, [arXiv:1011.5131](https://arxiv.org/abs/1011.5131)
