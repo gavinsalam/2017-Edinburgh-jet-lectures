@@ -11,9 +11,9 @@ install a linux system as a virtual machine, e.g. with VirtualBox).
 ## Useful references & tools:
 1. Towards Jetography, [arXiv:0906.1833](https://arxiv.org/abs/0906.1833)
 2. Elements of QCD for hadron colliders, [arXiv:1011.5131](https://arxiv.org/abs/1011.5131)
-3. FastJet program, http://fastjet.fr/ (you might want to download and
+3. FastJet jet reconstruction program, http://fastjet.fr/ (you might want to download and
    compile it beforehand).
-4. Pythia8, http://home.thep.lu.se/~torbjorn/Pythia.html
+4. The Pythia8 Monte Carlo event simulation program, http://home.thep.lu.se/~torbjorn/Pythia.html
 
 
 
