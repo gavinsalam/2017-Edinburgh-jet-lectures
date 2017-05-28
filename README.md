@@ -13,6 +13,7 @@ install a linux system as a virtual machine, e.g. with VirtualBox).
 2. Elements of QCD for hadron colliders, [arXiv:1011.5131](https://arxiv.org/abs/1011.5131)
 3. FastJet program, http://fastjet.fr/ (you might want to download and
    compile it beforehand).
+4. Pythia8, http://home.thep.lu.se/~torbjorn/Pythia.html
 
 
 
