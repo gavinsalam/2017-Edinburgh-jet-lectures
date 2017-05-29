@@ -24,5 +24,5 @@ This page is also accessible as https://git.io/2017jet
 
 ## Books
 1. QCD and Collider Physics (Cambridge University Press, 1996), by R.K. Ellis, W.J. Stirling and B.R. Webber 
-2. [Basics of perturbative QCD](www.lpthe.jussieu.fr/~yuri/BPQCD/BPQCD.pdf) (Ed. Frontieres 1991), by Yu.L.Dokshitzer, V.A. Khoze, A.H. Mueller and S.I. Troyan
+2. [Basics of perturbative QCD](http://www.lpthe.jussieu.fr/~yuri/BPQCD/BPQCD.pdf) (Ed. Frontieres 1991), by Yu.L.Dokshitzer, V.A. Khoze, A.H. Mueller and S.I. Troyan
 3. Hadronic Jets: An Introduction (Iop Concise Physics, 2016), by A. Banfi
