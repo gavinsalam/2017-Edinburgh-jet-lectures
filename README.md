@@ -19,9 +19,8 @@ This page is also accessible as https://git.io/2017jet
 ## Useful references & tools
 1. Towards Jetography, [arXiv:0906.1833](https://arxiv.org/abs/0906.1833)
 2. Elements of QCD for hadron colliders, [arXiv:1011.5131](https://arxiv.org/abs/1011.5131)
-3. FastJet jet reconstruction program, http://fastjet.fr/ (you might want to download and
-   compile it beforehand).
-4. The Pythia8 Monte Carlo event simulation program, http://home.thep.lu.se/~torbjorn/Pythia.html
+3. FastJet jet reconstruction program, http://fastjet.fr/ and [fjcontrib](https://fastjet.hepforge.org/contrib/) contributed add-ons
+4. The Pythia8 Monte Carlo event simulation program, http://home.thep.lu.se/~torbjorn/Pythia.html (which also contains a condensed version of FastJet, "fjcore")
 
 ## Books
 1. QCD and Collider Physics (Cambridge University Press, 1996), by R.K. Ellis, W.J. Stirling and B.R. Webber 
