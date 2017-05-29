@@ -14,7 +14,7 @@ __Tutorials:__ Enrico Bothmann, Leonardo Vernazza
 This page is also accessible as https://git.io/2017jet
 
 ## Material for tutorials
-1. [tutorial 1](tutorial-1/tutorial1.pdf)
+1. [tutorial 1](tutorial-1/tutorial1.pdf): NB if you're running this on linux, edit the Makefile and add "-ldl" to the LIBRARIES line
 
 ## Useful references & tools
 1. Towards Jetography, [arXiv:0906.1833](https://arxiv.org/abs/0906.1833)
