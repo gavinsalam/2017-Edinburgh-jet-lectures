@@ -11,6 +11,8 @@ install a linux system as a virtual machine, e.g. with VirtualBox).
 __Lectures:__ Gavin Salam  
 __Tutorials:__ Enrico Bothmann, Leonardo Vernazza
 
+This page is also accessible as https://git.io/2017jet
+
 ## Material for tutorials
 1. [tutorial 1](tutorial-1/tutorial1.pdf)
 
