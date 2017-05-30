@@ -1,5 +1,5 @@
 
-# Makefile generated automatically by /Users/gsalam/scripts/mkcxx.pl '-i' '-I ../pythia8226/include' '-l' '-L ../pythia8226/lib -lpythia8 -ldl' '-g' 'c++'
+# Makefile generated automatically by /Users/gsalam/scripts/mkcxx.pl '-i' '-I ../tutorial-1/pythia8226/include' '-l' '-L ../tutorial-1/pythia8226/lib -lpythia8 -ldl' '-g' 'c++'
 # run 'make make' to update it if you add new files
 
 CXX = c++
@@ -17,8 +17,8 @@ COMMONOBJ =
 PROGSRC = main01.cc
 PROGOBJ = main01.o
 
-INCLUDE += -I ../pythia8226/include
-LIBRARIES += -L ../pythia8226/lib -lpythia8 -ldl
+INCLUDE += -I ../tutorial-1/pythia8226/include
+LIBRARIES += -L ../tutorial-1/pythia8226/lib -lpythia8 -ldl
 
 
 all:  main01 
@@ -29,7 +29,7 @@ main01: main01.o  $(COMMONOBJ)
 
 
 make:
-	/Users/gsalam/scripts/mkcxx.pl '-i' '-I ../pythia8226/include' '-l' '-L ../pythia8226/lib -lpythia8 -ldl' '-g' 'c++'
+	/Users/gsalam/scripts/mkcxx.pl '-i' '-I ../tutorial-1/pythia8226/include' '-l' '-L ../tutorial-1/pythia8226/lib -lpythia8 -ldl' '-g' 'c++'
 
 clean:
 	rm -vf $(COMMONOBJ) $(PROGOBJ)
@@ -52,5 +52,3 @@ realclean: clean
 depend:
 	makedepend  $(LCLINCLUDE) -Y --   -- $(COMMONSRC) $(PROGSRC)
 # DO NOT DELETE
-
-main01.o: SimpleHist.hh
