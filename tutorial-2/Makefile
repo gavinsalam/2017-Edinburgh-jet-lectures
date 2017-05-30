@@ -52,3 +52,5 @@ realclean: clean
 depend:
 	makedepend  $(LCLINCLUDE) -Y --   -- $(COMMONSRC) $(PROGSRC)
 # DO NOT DELETE
+
+main01.o: helpers.hh
