@@ -42,7 +42,6 @@ int main() {
   ofstream file_particles("main01.particles");
   ofstream file_jets     ("main01.jets");
 
-  JetDefinition jet_def(ee_kt_algorithm);
   
   // Begin event loop. Generate event. Skip if error. List first one.
   for (int iEvent = 0; iEvent < nEvents; ++iEvent) {
@@ -65,8 +64,15 @@ int main() {
       file_particles << particles.back() << endl << endl << endl;
     }
 
+    // Cluster particle into jets
+    // First generate a whole "clustering sequence" with the e+e- kt algorithm
+    JetDefinition jet_def(ee_kt_algorithm);
     ClusterSequence cs(particles, jet_def);
-    vector<PseudoJet> jets = cs.exclusive_jets_ycut(0.02);
+    // then select the jets that come out of clustering with the following
+    // value of ycut
+    double ycut = 0.02;
+    vector<PseudoJet> jets = cs.exclusive_jets_ycut(ycut);
+    // print out the jets to a file
     for (unsigned i = 0; i < jets.size(); i++) {
       file_jets << "0 0 0 0" << endl << jets[i] << endl << endl << endl;
     }
