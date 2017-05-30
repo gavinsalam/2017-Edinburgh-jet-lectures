@@ -1,0 +1,7 @@
+*.bak
+*.o
+*~
+main01
+main01.jets
+main01.out
+main01.particles
