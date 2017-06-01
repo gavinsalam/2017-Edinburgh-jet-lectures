@@ -57,10 +57,10 @@ int main(int argc, char ** argv) {
   // which will help us with b-tagging
   set_bflavour_stable(pythia);
   
-  //pythia.readString("PartonLevel:FSR = off      ");
-  //pythia.readString("PartonLevel:ISR = off      ");
-  //pythia.readString("HadronLevel:Hadronize = off");
-  //pythia.readString("PartonLevel:MPI = off      ");
+  pythia.readString("PartonLevel:FSR = off      ");
+  pythia.readString("PartonLevel:ISR = off      ");
+  pythia.readString("HadronLevel:Hadronize = off");
+  pythia.readString("PartonLevel:MPI = off      ");
     
   
   // by changing the seed you can get different events
