@@ -43,9 +43,9 @@ int main(int argc, char ** argv) {
   pythia.readString("Beams:idB =  2212"); // proton
 
   // generate WW events
-  //pythia.readString("WeakDoubleBoson:ffbar2WW = on   ");
+  pythia.readString("WeakDoubleBoson:ffbar2WW = on   ");
   // alternatively, try dijet events
-  pythia.readString("HardQCD:all = on   ");
+  //pythia.readString("HardQCD:all = on   ");
 
   // Tell Pythia to generate only a portion of phasespace
   pythia.settings.parm("PhaseSpace:pTHatMin", ptmin);
