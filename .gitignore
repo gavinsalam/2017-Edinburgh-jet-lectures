@@ -1,0 +1,8 @@
+*.bak
+*.o
+*~
+fastjet-3.2.2
+fastjet-3.2.2-install/
+fastjet-3.2.2.tar.gz
+fjcontrib-1.026.tar.gz
+fjcontrib-1.026/

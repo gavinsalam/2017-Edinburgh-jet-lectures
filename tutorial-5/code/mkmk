@@ -1,0 +1,1 @@
+mkcxx.pl '-i' '-I ../../tutorial-1/pythia8226/include' '-l' '-L ../../tutorial-1/pythia8226/lib -lpythia8 -ldl' '-g' 'c++'
