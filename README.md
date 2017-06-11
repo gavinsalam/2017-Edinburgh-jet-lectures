@@ -15,6 +15,10 @@ This page is also accessible as https://git.io/2017jet
 
 ## Material for tutorials
 1. [tutorial 1](tutorial-1/tutorial1.pdf): NB if you're running this on linux, edit the Makefile and add "-ldl" to the LIBRARIES line
+2. [tutorial 2](tutorial-2/tutorial2.pdf)
+3. [tutorial 3](tutorial-3/tutorial3.pdf)
+4. [tutorial 4](tutorial-4/tutorial4.pdf)
+5. [tutorial 5](tutorial-5/tutorial5.pdf)
 
 ## Useful references & tools
 1. Towards Jetography, [arXiv:0906.1833](https://arxiv.org/abs/0906.1833)
